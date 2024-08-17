@@ -1,0 +1,35 @@
+body {
+  color: #000000;  
+}
+input[type="submit"] {
+  background-color: rgb(208, 230, 19);
+  color: rgb(177, 10, 44);
+  width: 175px;
+  height: 75px;
+  border-color: #f01f1f;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(212, 167, 16);
+  color: rgb(112, 20, 39);
+}
+
+input[type="submit"]:active {
+  background-color: rgb(19, 19, 121);  
+  color: rgb(84, 243, 44);
+  border-color: #dbf01f;
+}
+
+h2 {
+  background-color: aqua;
+  color: #000000;
+  border-width: 20px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
